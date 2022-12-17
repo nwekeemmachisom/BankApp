@@ -1,0 +1,120 @@
+body{
+    background-color: orange;
+    font-family: cursive;
+}
+.container>h3{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: larger;
+}
+.container>form{
+    height: 70vh;
+    margin-left: 35%;
+    background-color: blue;
+    font-size: large;
+    font-weight: lighter;
+    width: 30%;
+    text-align: center;
+}
+.log{
+    position: absolute;
+    left: 550px;
+    bottom: 90px;
+    /* background-color: green; */
+    margin-top: 20px;
+}
+#logbutt{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font: inherit;
+    border: none;
+}
+#logbutt:hover{
+    background-color: black;
+    color: white;
+}
+.reginput{
+    width: 230px;
+    border-radius: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: rgb(230, 112, 70);
+    color: black;
+}
+.regbutt{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font: inherit;
+    border: none;
+}
+.regbutt:hover{
+    background-color: black;
+    color: white;
+}
+.sign{
+    margin-left: 35%;
+    font-size: larger;
+    background-color: blue;
+    width: 30%;
+    text-align: center;
+    height: 50vh;
+    margin-top: 10%;
+}
+.sign>input{
+    width: 230px;
+    border-radius: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: rgb(230, 112, 70);
+    color: black;
+}
+.sign>button{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font: inherit;
+    border: none;
+    margin-left: 55%;
+}
+.sign>button:hover{
+    background-color: black;
+    color: white;
+}
+#creat{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font: inherit;
+    border: none;
+    margin-left: 37%;
+    position: relative;
+    bottom: 85px; 
+}
+#creat:hover{
+    background-color: black;
+    color: white;
+}
+.trans{
+    margin-left: 35%;
+    font-size: large;
+    background-color: blue;
+    width: 30%;
+    text-align: center;
+    height: auto;
+    margin-top: 6%;
+}
+.trans>button{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font: inherit;
+    border: none;
+}
+.trans>button:hover{
+    background-color: black;
+    color: white;
+}
