@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bankpage.css">
+</head>
+<body>
+    <form id="signin-ui" class="sign" style="display: block;">
+        <h1>Sign-in</h1>
+        <label for="name">Name</label> <br>
+        <input type="text" id = "name"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id = "password"> <br> <br>
+        <button>Submit</button>
+        
+      </form>
+      <button id="creat" style="display: block;">Create Account</button>
+
+      <div id="incorrect-ui" style="display: none;">
+        Incorrect Password, Try Again.
+      </div>
+
+      <div id="banned-ui" style="display: none;">
+        You have tried 4 times, and you are now banned from using this service
+      </div>
+</body>
+<script src="sign.js"></script>
+</html>
